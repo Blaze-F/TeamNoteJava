@@ -15,7 +15,6 @@ public class BackTracking_StringPermutations {
 
         return String.valueOf(arr);
     }
-
     void enumerate(String str, int startIndex) {
         if (startIndex == str.length()-1) {
             result.add(str);
